@@ -81,7 +81,7 @@ function orderlist(response) {
 let handle = {}
 handle['/'] = main;
 handle['/order'] = order;
-handle['/orderlist.html'] = orderlist;
+handle['/orderlist'] = orderlist;
 /**image directory */
 handle['/img/redRacket.png'] = redRacket;
 handle['/img/blueRacket.png'] = blueRacket;
